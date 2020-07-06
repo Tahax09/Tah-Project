@@ -4,6 +4,9 @@
 html {
 	height: 100 ;	
 }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #Tah {
 	float: center;
 	color:#094067;
@@ -12,7 +15,6 @@ html {
 	font-size: 40px;
 	font-weight: bold;
 	height: 15px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #Lets_Start_a_Project {
 	float: right;
@@ -21,7 +23,6 @@ html {
 	font-weight: medium;
 	color: #3DA9FC;
 	text-decoration: underline;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .nav {
 	float: left;
@@ -30,8 +31,20 @@ html {
 	font-style: normal;
 	font-weight: 500;
 	color: #094067;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
+	/* The navigation bar */
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+}  
+  /* Links inside the navbar */
+/* .navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+} */
 
 #Digital_Designer__Developer {
 	color: #094067;
@@ -55,7 +68,6 @@ html {
 	font-weight: bold;
 	padding-top: 8%;
 	padding-left: 30%;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #circuit-1 img{
@@ -68,10 +80,78 @@ html {
 }
 
 #Multidisciplinary_digital_desi {
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: bold;
 	color: #5F6C7B;
 	padding-top: 300px;
 	margin-bottom: auto;
 	padding-left: 30%;
+}
+
+.body_content {
+	padding-left: 30%;
+	padding-top: 4.68%;
+	color: #5F6C7B;
+	font-size: 22px;
+	float: left;
+	height: 15px;
+}
+
+#User_Interface {
+	color: #EF4565;
+	font-size: 26px;
+	font-weight: bold;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+#User_Experience {
+	color: #EF4565;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 2.68%;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+#Graphic_Desiging {
+	color: #EF4565;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 4.68%;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+#Front-End {
+	color: #EF4565;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 4.68%;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+#User_Interface_p {
+	padding-right: 23.75%;
+	padding-left: 4.68%;
+	padding-top: 1.83%;
+}
+
+#User_Experience_p {
+	padding-right: 23.75%;
+	padding-left: 4.68%;
+	padding-top: 6.588%;
+}
+
+#Graphic_Desiging_p {
+	padding-right: 23.75%;
+	padding-left: 4.68%;
+	padding-top: 6.588%;
+}
+
+#Front-End_p {
+	padding-right: 23.75%;
+	padding-left: 4.68%;
+	padding-top: 6.588%;
 }

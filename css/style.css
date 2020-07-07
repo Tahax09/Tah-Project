@@ -12,14 +12,14 @@ body {
 	color:#094067;
 	padding-left: 30% ;
 	padding-top: 3% ;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	height: 15px;
 }
 #Lets_Start_a_Project {
 	float: right;
 	padding-right: 15% ;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: medium;
 	color: #3DA9FC;
 	text-decoration: underline;
@@ -27,7 +27,7 @@ body {
 .nav {
 	float: left;
 	padding-left: 10%;
-	font-size: 18px;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
 	color: #094067;
@@ -63,7 +63,7 @@ body {
 }
 
 .center_content {
-	font-size: 80px;
+	font-size: 55px;
 	color: #094067;
 	font-weight: bold;
 	padding-top: 8%;
@@ -75,15 +75,15 @@ body {
 	height: 70%;
 	width: auto;
 	z-index: -10;
-	padding-left: 28%;
-	top: 190px;
+	padding-left: 26%;
+	top: 135px;
 }
 
 #Multidisciplinary_digital_desi {
-	font-size: 35px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #5F6C7B;
-	padding-top: 300px;
+	padding-top: 230px;
 	margin-bottom: auto;
 	padding-left: 30%;
 }
@@ -92,14 +92,14 @@ body {
 	padding-left: 30%;
 	padding-top: 4.68%;
 	color: #5F6C7B;
-	font-size: 22px;
+	font-size: 18px;
 	float: left;
 	height: 15px;
 }
 
 #User_Interface {
 	color: #EF4565;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bold;
 	overflow: hidden;
     white-space: nowrap;
@@ -107,7 +107,7 @@ body {
 
 #User_Experience {
 	color: #EF4565;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bold;
 	padding-top: 2.68%;
 	overflow: hidden;
@@ -116,7 +116,7 @@ body {
 
 #Graphic_Desiging {
 	color: #EF4565;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bold;
 	padding-top: 4.68%;
 	overflow: hidden;
@@ -125,7 +125,7 @@ body {
 
 #Front-End {
 	color: #EF4565;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bold;
 	padding-top: 4.68%;
 	overflow: hidden;
@@ -135,7 +135,7 @@ body {
 #User_Interface_p {
 	padding-right: 23.75%;
 	padding-left: 4.68%;
-	padding-top: 1.83%;
+	padding-top: 2.928%;
 }
 
 #User_Experience_p {
@@ -166,3 +166,8 @@ body {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+
+@viewport {
+	width: device-width ;
+	zoom: 1.0 ;
+  }

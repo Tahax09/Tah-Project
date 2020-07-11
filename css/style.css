@@ -29,59 +29,6 @@ body {
 	text-decoration: underline;
 }
 
-/* language bar style */
-.dropbtn {
-	background-color:transparent;
-	color: white;
-	/* padding: 25px; */
-	font-size: 10px;
-	border: none;	
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-
-  }
-  
-  .dropdown {
-	float: right;
-	position: relative;
-	/* display: inline-block; */
-    width: 30px;
-    height: 30px;
-  }
-  
-  .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
-
-  .button_img {
-	  position: relative;
-	  height: 30px;  
-	  width: auto;
-	  padding-left: 0%;
-  }
-
-  /* end of language bar style */
-
 .nav {
 	float: left;
 	padding-left: 10%;
@@ -104,6 +51,11 @@ body {
 	text-decoration: none;
 } */
 
+.nav a{
+	text-decoration: none;
+	color: #094067;
+}
+
 #Digital_Designer__Developer {
 	color: #094067;
 }
@@ -124,7 +76,7 @@ body {
 	font-size: 55px;
 	color: #094067;
 	font-weight: bold;
-	padding-top: 8%;
+	padding-top: 10%;
 	padding-left: 30%;
 }
 
@@ -217,18 +169,131 @@ body {
 /* end of body content */
 
 /* Projects Section */
+.project_content {
+	padding-left: 30%;
+}
 #Projects_section {
 	padding-top: 650px;
-	padding-left: 30%;
+	/* padding-left: 30%; */
 	font-size: 28px;
 	font-weight: bold;
 	color: #094067;
 
 }
 
-.Project_block1 {
-	padding-left: 650px;
-}
+/* mobile app desing block */
+#mobile {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	/* padding-left: 30%; */
+	padding-top: 1.68%;
+	height: 32.60%;
+	width: auto;
+  }
+  
+  #mobile:hover {opacity: 0.7;}
+  
+  #graphics {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	padding-left: 17.65%;
+	padding-top: 34.68%;
+	height: 32.60%;
+	width: auto;
+  }
+  
+  #graphics:hover {opacity: 0.7;}
+
+  #more {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	height: 32.60%;
+	width: auto;
+  }
+  
+  #more:hover {opacity: 0.7;}
+
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+	from {-webkit-transform:scale(0)} 
+	to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+	from {transform:scale(0)} 
+	to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+	.modal-content {
+	  width: 100%;
+	}
+  }
+
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
@@ -244,4 +309,18 @@ body {
 @viewport {
 	width: device-width ;
 	zoom: 1.0 ;
-  }
+}
+
+@keyframes caret {
+	50% {
+	  border-color: transparent;
+	}
+}
+
+#typed,
+.typed-cursor {
+  font-size: 55px;
+  color: #094067;
+  font-weight: bold;
+  line-height: 60px;
+}

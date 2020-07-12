@@ -20,6 +20,11 @@ body {
 	height: 15px;
 }
 
+#Tah a{
+	text-decoration: none;
+	color: #094067;
+}
+
 #Lets_Start_a_Project {
 	float: right;
 	padding-right: 15% ;

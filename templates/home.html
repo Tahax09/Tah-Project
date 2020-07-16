@@ -20,9 +20,15 @@
         <script type="text/javascript" src="{% fullstatic '/js/wow.js' %}"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-85NYKVE931"></script> -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172442517-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-
+		gtag('config', 'UA-172442517-1');
+        </script>
+        
         <title>Tah - Home Page</title>
         <!-- <link rel="shortcut-icon" href="{% fullstatic 'imgs/tah.ico' %}"> -->
     </head>
@@ -110,15 +116,15 @@
             </div>
 
             <table>
-                <tr>
-                    <td><img id="mobile" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="Mobile" style="width:100%;max-width:300px"></td>
-                    <td><img id="graphics" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="Graphics" style="width:100%;max-width:300px">
-                    </td>
-                </tr>
-                <tr>
-                    <td><img id="more" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="More" style="width:100%;max-width:300px">
-                </tr>
-            </table>
+				<tr>
+				  <td><img id="mobile" src="../imgs/mobile%20app%20design.png" alt="Mobile" style="width:100%;max-width:300px" ></td>
+				  <td><img id="graphics" src="../imgs/mobile%20app%20design.png" alt="Graphics" style="width:100%;max-width:300px" ></td>
+				</tr>
+				<tr>
+					<td><img id="more" src="../imgs/mobile%20app%20design.png" alt="More" style="width:100%;max-width:300px" ></td>
+					<!-- <td id="show_more">mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem, pharetra et magna sit amet, luctus aliquet nibh.></td> -->
+				</tr>
+			</table>
 
             <!-- The Modal -->
             <!-- <div id="mobile_block" class="modal">
@@ -151,15 +157,7 @@
             //   modal.style.display = "none";
             // }
         </script> -->
-        <!-- <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-85NYKVE931');
-        </script>
-        -->
-
+        
         <!-- scroll script -->
         <script type="text/javascript">
             $(document).ready(function () {

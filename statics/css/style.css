@@ -221,6 +221,19 @@ body {
   
   #more:hover {opacity: 0.7;}
 
+  #show_more {
+	  padding-left: 17.65%;
+  }
+
+/* typed style */
+ #typed,
+.typed-cursor {
+  font-size: 55px;
+  color: #094067;
+  font-weight: bold;
+  line-height: 60px;
+}
+
   /* The Modal (background) */
   .modal {
 	display: none; /* Hidden by default */
@@ -292,6 +305,7 @@ body {
 	cursor: pointer;
   }
   
+  /* responsive screens */
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
 	.modal-content {
@@ -322,10 +336,3 @@ body {
 	}
 }
 
-#typed,
-.typed-cursor {
-  font-size: 55px;
-  color: #094067;
-  font-weight: bold;
-  line-height: 60px;
-}

@@ -1,6 +1,7 @@
 from django.urls import path
 from heartbeat import views
+from heartbeat.views import HomeView
 
 urlpatterns = [
-    path("", views.home, name="home"),
+    path("", HomeView.as_view(), name="home"),
 ]

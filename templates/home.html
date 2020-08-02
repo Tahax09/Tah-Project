@@ -1,7 +1,7 @@
 {% load fullurl %}
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -53,22 +53,19 @@
 
         <div class="nav" id="nav">
             <div id="Digital_Designer__Developer">
-                <span><a href="#Digital_Designer_and_Developer">Digital Designer & Developer</a></span>
+                <span><a href="#Digital_Designer_and_Developer">{% trans "Digital Designer & Developer" %}</a></span>
             </div>
             <div id="Projects">
-                <span><a href="#Projects_Block">Projects</a></span>
+                <span><a href="#Projects_Block">{% trans "Projects" %}</a></span>
             </div>
             <div id="About_Me">
-                <span><a href="#about_me">About Me</a></span>
-            </div>
-            <div id="Soon">
-                <span>Soon</span>
+                <span><a href="#about_me">{% trans "About Me" %}</a></span>
             </div>
         </div>
 
         <div class="center_content">
             <div id="Editor">
-                <span>Editor.</span>
+                <span>{%trans "Editor" %}.</span>
             </div>
             <div id="circuit-1">
                 <img src="{% fullstatic 'imgs/Group%201.png' %}">
@@ -77,44 +74,44 @@
                 <span id="typed"></span>
             </div>
             <div id="Content_Manager">
-                <span>Content Manager.</span>
+                <span>{%trans "Content Manager" %}.</span>
             </div>
         </div>
 
         <div id="Multidisciplinary_digital_desi">
-            <span><a id="Digital_Designer_and_Developer" name="Digital Designer & Developer">Multidisciplinary digital designer & developer</a></span>
+            <span><a id="Digital_Designer_and_Developer" name="Digital Designer & Developer">{% trans "Multidisciplinary digital designer & developer" %}</a></span>
         </div>
 
         <table class="body_content">
             <tr>
-                <td id="User_Interface">User Interface</td>
-                <td id="User_Interface_p">mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem,
-                    pharetra et magna sit amet, luctus aliquet nibh.
+                <td id="User_Interface">{% trans "User Interface" %}</td>
+                <td id="User_Interface_p">{% trans "mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem,
+                    pharetra et magna sit amet, luctus aliquet nibh %}.
                 </td>
             </tr>
             <tr>
-                <td id="User_Experience">User Experience</td>
-                <td id="User_Experience_p">Phasellus risus turpis, pretium sit amet magna non, molestie ultricies enim. Nullam
-                    pulvinar felis at metus malesuada, nec convallis lacus commodo.
+                <td id="User_Experience">{% trans "User Experience" %}</td>
+                <td id="User_Experience_p">{% trans "Phasellus risus turpis, pretium sit amet magna non, molestie ultricies enim. Nullam
+                    pulvinar felis at metus malesuada, nec convallis lacus commodo" %}.
                 </td>
             </tr>
             <tr>
-                <td id="Graphic_Desiging">Graphic Desiging</td>
-                <td id="Graphic_Desiging_p">Cras gravida bibendum dolor eu varius. Morbi fermentum velit nisl, eget vehicula
-                    lorem sodales eget. Donec quis volutpat orci.
+                <td id="Graphic_Desiging">{% trans "Graphic Designing" %}</td>
+                <td id="Graphic_Desiging_p">{% trans "Cras gravida bibendum dolor eu varius. Morbi fermentum velit nisl, eget vehicula
+                    lorem sodales eget. Donec quis volutpat orci" %}.
                 </td>
             </tr>
             <tr>
-                <td id="Front-End">Front-End</td>
-                <td id="Front-End_p">Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in
-                    vulputate.
+                <td id="Front-End">{% trans "Front-End" %}</td>
+                <td id="Front-End_p">{% trans "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in
+                    vulputate" %}.
                 </td>
             </tr>
         </table>
 
         <div class="project_content">
             <div id="Projects_section">
-                <span><a id="Projects_Block" name="Projects_Block">Projects</a></span>
+                <span><a id="Projects_Block" name="Projects_Block">{% trans "Projects" %}</a></span>
             </div>
 
             <table>
@@ -137,9 +134,9 @@
 
         <table class="about_me_content">
             <tr>
-                <td id="about_me">About Me</td>
-                <td id="about_me_p"><p>Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam tempor mollis augue, ut tincidunt ex interdum eu. Pellentesque rhoncus lectus sed posuere viverra.
-                    Vestibulum id turpis lectus. Donec rhoncus quis elit sed fermentum. Nullam sit amet ex enim. Fusce nec suscipit nulla.</p>
+                <td id="about_me">{% trans "About Me" %}</td>
+                <td id="about_me_p"><p>{% trans "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam tempor mollis augue, ut tincidunt ex interdum eu. Pellentesque rhoncus lectus sed posuere viverra.
+                    Vestibulum id turpis lectus. Donec rhoncus quis elit sed fermentum. Nullam sit amet ex enim. Fusce nec suscipit nulla" %}.</p>
                 </td>
             </tr>
 		</table>

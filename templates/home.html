@@ -43,212 +43,212 @@
 </head>
 
 <body>
-<div id="Tah">
-    <span><a href="">Tah</a></span><span style="color:#EF4565;">.</span>
-</div>
-<div id="Lets_Start_a_Project">
-    <span>{% trans "Let's Start a Project" %}</span>
-</div>
-<!-- <div class="dropdown">
-    <button class="dropbtn"><img class="button_img" src="imgs/translation (1).svg"></button>
-    <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <div id="Tah">
+        <span><a href="">Tah</a></span><span style="color:#EF4565;">.</span>
     </div>
-</div> -->
+    <div id="Lets_Start_a_Project">
+        <span>{% trans "Let's Start a Project" %}</span>
+    </div>
+    <!-- <div class="dropdown">
+        <button class="dropbtn"><img class="button_img" src="imgs/translation (1).svg"></button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+    </div> -->
 
-<div class="nav" id="nav">
-    <div id="Digital_Designer__Developer">
-        <span><a href="#Digital_Designer_and_Developer">{% trans "Digital Designer & Developer" %}</a></span>
-    </div>
-    <div id="Projects">
-        <span><a href="#Projects_Block">{% trans "Projects" %}</a></span>
-    </div>
-    <div id="About_Me">
-        <span><a href="#about_me">{% trans "About Me" %}</a></span>
-    </div>
-    <div id="About_Me">
-        <span><a href="?lang={% if LANGUAGE_CODE == 'ar' %}en{% else %}ar{% endif %}">
-        {% if LANGUAGE_CODE == 'ar' %}
-            {% trans "English" %}
-        {% else %}
-            {% trans "Arabic" %}
-        {% endif %}
-        </a></span>
-    </div>
-</div>
-
-<div class="center_content">
-    <div id="Editor">
-        <span>{% trans "Editor" %}.</span>
-    </div>
-    <div id="circuit-1">
-        <img src="{% fullstatic 'imgs/Group%201.png' %}">
-    </div>
-    <div>
-        <span id="typed"></span>
-    </div>
-    <div id="Content_Manager">
-        <span>{% trans "Content Manager" %}.</span>
-    </div>
-</div>
-
-<div id="Multidisciplinary_digital_desi">
-    <span><a id="Digital_Designer_and_Developer"
-             name="Digital Designer & Developer">{% trans "Multidisciplinary digital designer & developer" %}</a></span>
-</div>
-
-<table class="body_content">
-    <tr>
-        <td id="User_Interface">{% trans "User Interface" %}</td>
-        <td id="User_Interface_p">{% trans "mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem,pharetra et magna sit amet, luctus aliquet nibh" %}.
-        </td>
-    </tr>
-    <tr>
-        <td id="User_Experience">{% trans "User Experience" %}</td>
-        <td id="User_Experience_p">{% trans "Phasellus risus turpis, pretium sit amet magna non, molestie ultricies enim. Nullampulvinar felis at metus malesuada, nec convallis lacus commodo" %}.
-        </td>
-    </tr>
-    <tr>
-        <td id="Graphic_Desiging">{% trans "Graphic Designing" %}</td>
-        <td id="Graphic_Desiging_p">{% trans "Cras gravida bibendum dolor eu varius. Morbi fermentum velit nisl, eget vehicula lorem sodales eget. Donec quis volutpat orci" %}.
-        </td>
-    </tr>
-    <tr>
-        <td id="Front-End">{% trans "Front-End" %}</td>
-        <td id="Front-End_p">{% trans "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo invulputate" %}.
-        </td>
-    </tr>
-</table>
-
-<div class="project_content">
-    <div id="Projects_section">
-        <span><a id="Projects_Block" name="Projects_Block">{% trans "Projects" %}</a></span>
+    <div class="nav" id="nav">
+        <div id="Digital_Designer__Developer">
+            <span><a href="#Digital_Designer_and_Developer">{% trans "Digital Designer & Developer" %}</a></span>
+        </div>
+        <div id="Projects">
+            <span><a href="#Projects_Block">{% trans "Projects" %}</a></span>
+        </div>
+        <div id="About_Me">
+            <span><a href="#about_me">{% trans "About Me" %}</a></span>
+        </div>
+        <div id="About_Me">
+            <span><a href="?lang={% if LANGUAGE_CODE == 'ar' %}en{% else %}ar{% endif %}">
+            {% if LANGUAGE_CODE == 'ar' %}
+                {% trans "English" %}
+            {% else %}
+                {% trans "Arabic" %}
+            {% endif %}
+            </a></span>
+        </div>
     </div>
 
-    <table>
+    <div class="center_content">
+        <div id="Editor">
+            <span>{% trans "Editor" %}.</span>
+        </div>
+        <div id="circuit-1">
+            <img src="{% fullstatic 'imgs/Group%201.png' %}">
+        </div>
+        <div>
+            <span id="typed"></span>
+        </div>
+        <div id="Content_Manager">
+            <span>{% trans "Content Manager" %}.</span>
+        </div>
+    </div>
+
+    <div id="Multidisciplinary_digital_desi">
+        <span><a id="Digital_Designer_and_Developer"
+                name="Digital Designer & Developer">{% trans "Multidisciplinary digital designer & developer" %}</a></span>
+    </div>
+
+    <table class="body_content">
         <tr>
-            <td><img id="mobile" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="Mobile"
-                     style="width:100%;max-width:300px"></td>
-            <td><img id="graphics" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="Graphics"
-                     style="width:100%;max-width:300px"></td>
+            <td id="User_Interface">{% trans "User Interface" %}</td>
+            <td id="User_Interface_p">{% trans "mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem,pharetra et magna sit amet, luctus aliquet nibh" %}.
+            </td>
         </tr>
         <tr>
-            <td><img id="more" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="More"
-                     style="width:100%;max-width:300px"></td>
+            <td id="User_Experience">{% trans "User Experience" %}</td>
+            <td id="User_Experience_p">{% trans "Phasellus risus turpis, pretium sit amet magna non, molestie ultricies enim. Nullampulvinar felis at metus malesuada, nec convallis lacus commodo" %}.
+            </td>
+        </tr>
+        <tr>
+            <td id="Graphic_Desiging">{% trans "Graphic Designing" %}</td>
+            <td id="Graphic_Desiging_p">{% trans "Cras gravida bibendum dolor eu varius. Morbi fermentum velit nisl, eget vehicula lorem sodales eget. Donec quis volutpat orci" %}.
+            </td>
+        </tr>
+        <tr>
+            <td id="Front-End">{% trans "Front-End" %}</td>
+            <td id="Front-End_p">{% trans "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo invulputate" %}.
+            </td>
         </tr>
     </table>
 
-    <!-- The Modal -->
-    <!-- <div id="mobile_block" class="modal">
-        <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div> -->
-</div>
+    <div class="project_content">
+        <div id="Projects_section">
+            <span><a id="Projects_Block" name="Projects_Block">{% trans "Projects" %}</a></span>
+        </div>
 
-<table class="about_me_content">
-    <tr>
-        <td id="about_me">{% trans "About Me" %}</td>
-        <td id="about_me_p">
-            <p>{% trans 'Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam tempor mollis augue, ut tincidunt ex interdum eu. Pellentesque rhoncus lectus sed posuere viverra. Vestibulum id turpis lectus. Donec rhoncus quis elit sed fermentum. Nullam sit amet ex enim. Fusce necsuscipit nulla' %}.</p>
-        </td>
-    </tr>
-</table>
+        <table>
+            <tr>
+                <td><img id="mobile" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="Mobile"
+                        style="width:100%;max-width:300px"></td>
+                <td><img id="graphics" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="Graphics"
+                        style="width:100%;max-width:300px"></td>
+            </tr>
+            <tr>
+                <td><img id="more" src="{% fullstatic 'imgs/mobile%20app%20design.png' %}" alt="More"
+                        style="width:100%;max-width:300px"></td>
+            </tr>
+        </table>
 
-
-<div class="social-buttons">
-      <a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
-        <span class="social-button__inner">
-         <i class="fab fa-facebook-f"></i>
-        </span>
-      </a>
-      <a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
-        <span class="social-button__inner">
-         <i class="fab fa-linkedin-in"></i>
-        </span>
-      </a>
-      <a href="#" class="social-buttons__button social-button social-button--snapchat" aria-label="SnapChat">
-        <span class="social-button__inner">
-         <i class="fab fa-snapchat-ghost"></i>
-        </span>
-      </a>
-      <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-        <span class="social-button__inner">
-         <i class="fab fa-github"></i>
-        </span>
-      </a>
-      <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
-        <span class="social-button__inner">
-         <i class="fab fa-codepen"></i>
-        </span>
-      </a>
+        <!-- The Modal -->
+        <!-- <div id="mobile_block" class="modal">
+            <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div> -->
     </div>
 
-<!-- click on img modal -->
-<!-- <script>
-    // Get the modal
-    var modal = document.getElementById("mobile_block");
+    <table class="about_me_content">
+        <tr>
+            <td id="about_me">{% trans "About Me" %}</td>
+            <td id="about_me_p">
+                <p>{% trans 'Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam tempor mollis augue, ut tincidunt ex interdum eu. Pellentesque rhoncus lectus sed posuere viverra. Vestibulum id turpis lectus. Donec rhoncus quis elit sed fermentum. Nullam sit amet ex enim. Fusce necsuscipit nulla' %}.</p>
+            </td>
+        </tr>
+    </table>
 
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    // var img = document.getElementById("mobile");
-    // var modalImg = document.getElementById("Mobile");
-    // var captionText = document.getElementById("caption");
-    // img.onclick = function(){
-    //   modal.style.display = "block";
-    //   modalImg.src = this.src;
-    //   captionText.innerHTML = this.alt;
-    // }
 
-    // // Get the <span> element that closes the modal
-    // var span = document.getElementsByClassName("close")[0];
+    <div class="social-buttons">
+        <a href="https://dribbble.com/Tahax09" class="social-buttons__button social-button social-button--dribbble" aria-label="Dribble">
+            <span class="social-button__inner">
+            <i class="fab fa-dribbble"></i>
+            </span>
+        </a>
+        <a href="https://www.linkedin.com/in/tahx09/" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+            <span class="social-button__inner">
+            <i class="fab fa-linkedin-in"></i>
+            </span>
+        </a>
+        <!-- <a href="#" class="social-buttons__button social-button social-button--snapchat" aria-label="SnapChat">
+            <span class="social-button__inner">
+            <i class="fab fa-snapchat-ghost"></i>
+            </span>
+        </a> -->
+        <a href="https://github.com/Tahax09" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+            <span class="social-button__inner">
+            <i class="fab fa-github"></i>
+            </span>
+        </a>
+        <a href="https://twitter.com/Tahx09" class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
+            <span class="social-button__inner">
+            <i class="fab fa-twitter"></i>
+            </span>
+        </a>
+    </div>
 
-    // // When the user clicks on <span> (x), close the modal
-    // span.onclick = function() {
-    //   modal.style.display = "none";
-    // }
-</script> -->
+    <!-- click on img modal -->
+    <!-- <script>
+        // Get the modal
+        var modal = document.getElementById("mobile_block");
 
-<!-- scroll script -->
-<script type="text/javascript">
-    $(document).ready(function () {
-        // Add smooth scrolling to all links
-        $("#nav a").on('click', function (event) {
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        // var img = document.getElementById("mobile");
+        // var modalImg = document.getElementById("Mobile");
+        // var captionText = document.getElementById("caption");
+        // img.onclick = function(){
+        //   modal.style.display = "block";
+        //   modalImg.src = this.src;
+        //   captionText.innerHTML = this.alt;
+        // }
 
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
+        // // Get the <span> element that closes the modal
+        // var span = document.getElementsByClassName("close")[0];
 
-                // Store hash
-                var hash = this.hash;
+        // // When the user clicks on <span> (x), close the modal
+        // span.onclick = function() {
+        //   modal.style.display = "none";
+        // }
+    </script> -->
 
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function () {
+    <!-- scroll script -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("#nav a").on('click', function (event) {
 
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
         });
-    });
-</script>
+    </script>
 
 
-<!-- typed script  -->
-<script>
-    var typed = new Typed("#typed", {
-        strings: ["{% trans 'UI Designer' %}.^1500", "{% trans 'Front-end Developer' %}.^1500", "{% trans 'UX Designer' %}.^1500"],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true,
-        loopCount: Infinity
-    });
-</script>
+    <!-- typed script  -->
+    <script>
+        var typed = new Typed("#typed", {
+            strings: ["{% trans 'UI Designer' %}.^1500", "{% trans 'Front-end Developer' %}.^1500", "{% trans 'UX Designer' %}.^1500"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+            loopCount: Infinity
+        });
+    </script>
 </body>
 </html>
 

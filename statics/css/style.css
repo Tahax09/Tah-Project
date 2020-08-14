@@ -247,8 +247,17 @@ body {
 	height: 15px;
 }
 
+#circuit-2 img{
+	position: absolute;
+	height: 70%;
+	width: auto;
+	z-index: -10;
+	padding-left: 21.5%;
+	/* top: 135px; */
+}
+
 #about_me {
-	padding-bottom: 80px;
+	padding-bottom: 145px;
 	color: #094067;
 	font-size: 20px;
 	font-weight: bold;
@@ -259,7 +268,47 @@ body {
 #about_me_p {
 	padding-right: 23.75%;
 	padding-left: 4.68%;
-	padding-top: 2.928%;
+	/* padding-top: 2.928%; */
+}
+
+#about_me_p p{
+	width: 630px;
+}
+
+#skills {
+	padding-bottom: 100px;
+	padding-top: 50px;
+	color: #094067;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+#skill_icons {
+	padding-right: 23.75%;
+	padding-left: 2.68%;
+	/* padding-top: 2.928%; */
+}
+
+#skill_icons img {
+	margin-left: 10px;
+	width: 72px;
+	height: auto;
+}
+
+#and_more {
+	padding-left: 40px;
+}
+
+#tools {
+	padding-bottom: 50px;
+	padding-top: 10px;
+	color: #094067;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+    white-space: nowrap;
 }
 
 /* footer block */
@@ -385,11 +434,11 @@ body {
 .social-button--codepen::after {
   background: #212121;
 }
-.social-button--snapchat {
-  color: #eec900;
+.social-button--facebook {
+  color: #4267b2;
 }
-.social-button--snapchat::after {
-  background: #eec900;
+.social-button--facebook::after {
+  background: #4267b2;
 }
 .social-button--twitter {
   color: #55acee;

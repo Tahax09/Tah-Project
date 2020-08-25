@@ -26,7 +26,9 @@ SECRET_KEY = 'v_6-1u)dt4#x$_cl$^a5yd_bbk-8!laldjq0()6uio4e9@54y1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "tahalabyad.ly"
+]
 
 
 # Application definition
